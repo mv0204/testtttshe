@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/art"
+    android:layout_height="match_parent"
+    tools:context=".Defence">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:paddingLeft="15dp"
+            android:text="#  Just because you’re a woman, you shouldn’t be asked to travel with a companion!"
+            android:textColor="#10328F"
+            android:textSize="28dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="92dp" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:text="#  The primary importance of self-defence is for women to be able to protect themselves against anything that’s unacceptable in terms of social conduct"
+            android:textColor="#10328F"
+            android:layout_marginTop="12dp"
+            android:textSize="28dp"
+            android:textStyle="bold"></TextView>
+
+
+    </LinearLayout>
+</ScrollView>
